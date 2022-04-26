@@ -19,6 +19,7 @@ body {
   font-size: 24px;
   color: #F0FAF8;
   padding: 10px 0;
+  margin-bottom: 90px;
 
 }
 
@@ -38,16 +39,39 @@ body {
   display: flex;
   flex-direction: column;
   flex: 1;
+  align-items: flex-start;
+  margin-right: 50px;
 }
 
 .hero img {
   flex: 1;
 }
 
-a {
+a , .hero-secondary-text{
   text-decoration: none;
   font-size: 18px;
   color: #E5E7EB;
+}
+
+.hero-main-text {
+  color: #F9FAF8;
+  font-weight: 900;
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.hero-secondary-text {
+  padding-bottom: 15px;
+}
+
+button {
+  border-radius: 8px;
+  padding: 8px 25px;
+  background-color: #3882F6;
+  border: 0;
+  font-size: 18px;
+  color: #F9FAF8;
+  font-weight: 600;
 }
 
 
