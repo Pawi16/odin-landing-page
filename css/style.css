@@ -33,6 +33,7 @@ body {
 .hero {
   display: flex;
   margin-bottom: 100px;
+  flex-wrap: wrap;
 }
 
 .hero .container {
@@ -46,6 +47,7 @@ body {
 .hero img {
   height: auto;
   width: 400px;
+  flex-shrink: 1;
 }
 
 a , .hero-secondary-text{
@@ -77,10 +79,35 @@ button {
 
 
 
-.info .header {
-
+.information {
+  text-align: center;
+  padding-top: 50px;
 }
 
+.information .header {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1F2937;
+  margin-bottom: 50px;
+}
 
+.information .text {
+  font-size: 18px;
+  color: #495668;
+  margin-top: 5px;
+}
 
+.information .container {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 90px;
+}
+
+.info img {
+  height: 120px;
+  width: auto;
+  border-radius: 12px;
+}
 
