@@ -10,7 +10,6 @@ body {
 
 .head {
   padding: 0 150px;
-  height: 600px;
   background-color: #1F2937;
 }
 .header {
@@ -33,6 +32,7 @@ body {
 
 .hero {
   display: flex;
+  margin-bottom: 100px;
 }
 
 .container {
@@ -40,11 +40,12 @@ body {
   flex-direction: column;
   flex: 1;
   align-items: flex-start;
-  margin-right: 50px;
+  margin-right: 80px;
 }
 
 .hero img {
-  flex: 1;
+  height: auto;
+  width: 400px;
 }
 
 a , .hero-secondary-text{
@@ -61,7 +62,7 @@ a , .hero-secondary-text{
 }
 
 .hero-secondary-text {
-  padding-bottom: 15px;
+  padding-bottom: 25px;
 }
 
 button {
@@ -73,5 +74,7 @@ button {
   color: #F9FAF8;
   font-weight: 600;
 }
+
+
 
 

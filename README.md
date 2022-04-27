@@ -1,3 +1,4 @@
 # odin-landing-page
 
-Photo by Jakub Dziubak on Unsplash
+dog-image by Julian on Unsplash
+header text from bohemian rhapsody
